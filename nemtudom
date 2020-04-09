@@ -5,4 +5,5 @@ FELSO_HATAR = 5
  
 import random
  
-gondolt_szam = random.randint(ALSO_HATAR, FELSŐ_HATAR)
+gondolt_szam = random.randint(ALSO_HATAR, FELSO_HATAR)
+most irok egy sort hogy majd töröljem
