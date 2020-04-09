@@ -6,4 +6,14 @@ FELSO_HATAR = 5
 import random
  
 gondolt_szam = random.randint(ALSO_HATAR, FELSO_HATAR)
-most irok egy sort hogy majd töröljem
+
+kitalalta = False
+elhasznalt_lehetosegek = 0
+ 
+while not kitalalta and elhasznalt_lehetosegek < 3:
+    tipp = input('Melyik számra gondoltam ' + str(ALSO_HATAR) + ' és ' + str(FELSO_HATAR) + ' között? ')
+    tipp = int(tipp)
+    elhasznalt_lehetosegek += 1
+    if tipp == gondolt_szam:
+        kitalalta = True
+        print('ügyes!')
