@@ -11,9 +11,9 @@ kitalalta = False
 elhasznalt_lehetosegek = 0
  
 while not kitalalta and elhasznalt_lehetosegek < 3:
-    tipp = input('Melyik számra gondoltam ' + str(ALSO_HATAR) + ' és ' + str(FELSO_HATAR) + ' között? ')
+    tipp = input('Vajon melyik számra gondoltam ' + str(ALSO_HATAR) + ' és ' + str(FELSO_HATAR) + ' között? ')
     tipp = int(tipp)
     elhasznalt_lehetosegek += 1
     if tipp == gondolt_szam:
         kitalalta = True
-        print('ügyes!')
+        print('Rendkívüli teljesítmény, Gratulálok!')
