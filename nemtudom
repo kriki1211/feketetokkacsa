@@ -1,0 +1,8 @@
+#!/usr/bin/env python3
+
+ALSÓ_HATÁR = 1
+FELSŐ_HATÁR = 5
+ 
+import random
+ 
+gondolt_szám = random.randint(ALSÓ_HATÁR, FELSŐ_HATÁR)
